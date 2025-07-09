@@ -1,0 +1,17 @@
+{
+  "production": true,
+  "logger": {
+    "level": "debug"
+  },
+  "web": {
+    "port": 9000
+  },
+  "database": {
+    "driver": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "database": "bsc_go",
+    "username": "postgres",
+    "password": "password"
+  }
+}

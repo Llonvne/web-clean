@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Base">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/router.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Conf">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/conf.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/Conf.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/infra.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Context">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/ctx/ctx.go" />
+              <option value="file://$PROJECT_DIR$/infra/infra.go" />
+              <option value="file://$PROJECT_DIR$/infra/loader/loader.go" />
+              <option value="file://$PROJECT_DIR$/infra/web/context.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DatabaseConf">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/conf.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Error">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/errors.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/error.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/json.go" />
+              <option value="file://$PROJECT_DIR$/infra/loader/json/error.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ErrorModel">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/repository/ErrorsRepository.go" />
+              <option value="file://$PROJECT_DIR$/repository/logs.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Errors">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/web/error_persist.go" />
+              <option value="file://$PROJECT_DIR$/repository/ErrorsRepository.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Gin">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/web/gin.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoadConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/conf/json.go" />
+              <option value="file://$PROJECT_DIR$/infra/infra.go" />
+              <option value="file://$PROJECT_DIR$/infra/loader/loader.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoaderContext">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/conf/json.go" />
+              <option value="file://$PROJECT_DIR$/infra/loader/loader.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Log">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/web/log_persist.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Logger">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/conf.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Logs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/web/log_persist.go" />
+              <option value="file://$PROJECT_DIR$/repository/logs.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LogsModel">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/repository/logs.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PanicError">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/errors.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PrepareConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/infra.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Router">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/router.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Routes">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/Base.go" />
+              <option value="file://$PROJECT_DIR$/handler/base.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ServerInternalError">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/errors.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserHandler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Web">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/conf.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WebConf">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/conf/Conf.go" />
+              <option value="file://$PROJECT_DIR$/infra/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WebContext">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/web/context.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="_database">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/database/Database.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="_gin">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/web/gin.go" />
+              <option value="file://$PROJECT_DIR$/web/gin.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="_json">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/loader/json/json.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="_zap">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/log/zap.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="gin">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/web/gin.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="webLog">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/infra/web/context.go" />
+              <option value="file://$PROJECT_DIR$/infra/web/log_persist.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/cmd/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752053142745" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/domain/log.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752039565100" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/Base.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752043797958" />
+              <option name="schema">
+                <list>
+                  <option value="Routes" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/UserHandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752043759225" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/base.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752043913864" />
+              <option name="schema">
+                <list>
+                  <option value="Routes" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/errors.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752046642245" />
+              <option name="schema">
+                <list>
+                  <option value="Error" />
+                  <option value="ServerInternalError" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752046635671" />
+              <option name="schema">
+                <list>
+                  <option value="Router" />
+                  <option value="Base" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752052775205" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/conf.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752041462310" />
+              <option name="schema">
+                <list>
+                  <option value="Conf" />
+                  <option value="Logger" />
+                  <option value="Web" />
+                  <option value="DatabaseConf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/conf/Conf.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752039160432" />
+              <option name="schema">
+                <list>
+                  <option value="Conf" />
+                  <option value="WebConf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/conf/conf.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752041928732" />
+              <option name="schema">
+                <list>
+                  <option value="Conf" />
+                  <option value="Logger" />
+                  <option value="Web" />
+                  <option value="DatabaseConf" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/conf/error.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752040364253" />
+              <option name="schema">
+                <list>
+                  <option value="Error" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/conf/json.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752041674477" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/conf/load.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752040007179" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/ctx/ctx.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752041240227" />
+              <option name="schema">
+                <list>
+                  <option value="Context" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/database/Database.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752050339629" />
+              <option name="schema">
+                <list>
+                  <option value="_database" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/database/connector/connector.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752043103757" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/database/schema.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752050537584" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/infra.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752042275520" />
+              <option name="schema">
+                <list>
+                  <option value="Context" />
+                  <option value="PrepareConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/loader.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752041162394" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/loader/json/error.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752041928736" />
+              <option name="schema">
+                <list>
+                  <option value="Error" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/loader/json/json.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752042275517" />
+              <option name="schema">
+                <list>
+                  <option value="_json" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/loader/loader.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752042275522" />
+              <option name="schema">
+                <list>
+                  <option value="Context" />
+                  <option value="LoadConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/log/zap.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752039780844" />
+              <option name="schema">
+                <list>
+                  <option value="_zap" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/context.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752053333715" />
+              <option name="schema">
+                <list>
+                  <option value="Context" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/error_persist.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752051474957" />
+              <option name="schema">
+                <list>
+                  <option value="Errors" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/error_stack.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752047262563" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/errors.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752046812114" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/gin.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752046751004" />
+              <option name="schema">
+                <list>
+                  <option value="_gin" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/id.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752051622769" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/log_persist.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752053088137" />
+              <option name="schema">
+                <list>
+                  <option value="Log" />
+                  <option value="webLog" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/middleware/db/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752043246207" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/middleware/txmid/txmid.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752043199893" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/recover.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752046296127" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/infra/web/web.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752039092079" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/repository/ErrorsRepository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752050278456" />
+              <option name="schema">
+                <list>
+                  <option value="ErrorModel" />
+                  <option value="Errors" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/repository/logs.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752053305427" />
+              <option name="schema">
+                <list>
+                  <option value="LogsModel" />
+                  <option value="Logs" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/web/gin.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752039506715" />
+              <option name="schema">
+                <list>
+                  <option value="_gin" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/web/web.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1752039092079" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="_database" value="_database" />
+        <entry key="_gin" value="_gin" />
+        <entry key="_json" value="_json" />
+        <entry key="_zap" value="_zap" />
+        <entry key="base" value="Base" />
+        <entry key="conf" value="Conf" />
+        <entry key="config" value="Config" />
+        <entry key="context" value="Context" />
+        <entry key="database_conf" value="DatabaseConf" />
+        <entry key="error" value="Error" />
+        <entry key="error_model" value="ErrorModel" />
+        <entry key="errors" value="Errors" />
+        <entry key="load_config" value="LoadConfig" />
+        <entry key="loader_context" value="LoaderContext" />
+        <entry key="log" value="Log" />
+        <entry key="logger" value="Logger" />
+        <entry key="logs" value="Logs" />
+        <entry key="logs_model" value="LogsModel" />
+        <entry key="panic_error" value="PanicError" />
+        <entry key="prepare_config" value="PrepareConfig" />
+        <entry key="router" value="Router" />
+        <entry key="routes" value="Routes" />
+        <entry key="server_internal_error" value="ServerInternalError" />
+        <entry key="user" value="User" />
+        <entry key="user_handler" value="UserHandler" />
+        <entry key="web" value="Web" />
+        <entry key="web_conf" value="WebConf" />
+        <entry key="web_context" value="WebContext" />
+        <entry key="web_log" value="webLog" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1752038384474" />
+  </component>
+</project>

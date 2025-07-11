@@ -1,8 +1,8 @@
 package entity
 
 import (
-	"time"
 	"github.com/google/uuid"
+	"time"
 )
 
 // User represents the core business entity for users
@@ -36,8 +36,8 @@ func (u *User) UpdateProfile(name string) {
 
 // IsValid validates the user entity
 func (u *User) IsValid() bool {
-	return u.ID != uuid.Nil && 
-		   u.Email != "" && 
-		   u.Username != "" && 
-		   u.Name != ""
+	return u.ID != uuid.Nil &&
+		u.Email != "" &&
+		u.Username != "" &&
+		u.Name != ""
 }

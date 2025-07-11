@@ -169,7 +169,7 @@ func (s *UserService) ListUsers(ctx context.Context, req usecase.ListUsersReques
 	if req.Limit <= 0 {
 		req.Limit = 10
 	}
-	
+
 	// Business rule: Maximum limit
 	if req.Limit > 100 {
 		req.Limit = 100

@@ -76,27 +76,27 @@ type MockLogger struct {
 	mock.Mock
 }
 
-func (m *MockLogger) Debug(args ...interface{})                            {}
-func (m *MockLogger) Info(args ...interface{})                             {}
-func (m *MockLogger) Warn(args ...interface{})                             {}
-func (m *MockLogger) Error(args ...interface{})                            {}
-func (m *MockLogger) DPanic(args ...interface{})                           {}
-func (m *MockLogger) Panic(args ...interface{})                            {}
-func (m *MockLogger) Fatal(args ...interface{})                            {}
-func (m *MockLogger) Debugf(template string, args ...interface{})          {}
-func (m *MockLogger) Infof(template string, args ...interface{})           {}
-func (m *MockLogger) Warnf(template string, args ...interface{})           {}
-func (m *MockLogger) Errorf(template string, args ...interface{})          {}
-func (m *MockLogger) DPanicf(template string, args ...interface{})         {}
-func (m *MockLogger) Panicf(template string, args ...interface{})          {}
-func (m *MockLogger) Fatalf(template string, args ...interface{})          {}
-func (m *MockLogger) Debugw(msg string, keysAndValues ...interface{})      {}
-func (m *MockLogger) Infow(msg string, keysAndValues ...interface{})       {}
-func (m *MockLogger) Warnw(msg string, keysAndValues ...interface{})       {}
-func (m *MockLogger) Errorw(msg string, keysAndValues ...interface{})      {}
-func (m *MockLogger) DPanicw(msg string, keysAndValues ...interface{})     {}
-func (m *MockLogger) Panicw(msg string, keysAndValues ...interface{})      {}
-func (m *MockLogger) Fatalw(msg string, keysAndValues ...interface{})      {}
+func (m *MockLogger) Debug(args ...interface{})                        {}
+func (m *MockLogger) Info(args ...interface{})                         {}
+func (m *MockLogger) Warn(args ...interface{})                         {}
+func (m *MockLogger) Error(args ...interface{})                        {}
+func (m *MockLogger) DPanic(args ...interface{})                       {}
+func (m *MockLogger) Panic(args ...interface{})                        {}
+func (m *MockLogger) Fatal(args ...interface{})                        {}
+func (m *MockLogger) Debugf(template string, args ...interface{})      {}
+func (m *MockLogger) Infof(template string, args ...interface{})       {}
+func (m *MockLogger) Warnf(template string, args ...interface{})       {}
+func (m *MockLogger) Errorf(template string, args ...interface{})      {}
+func (m *MockLogger) DPanicf(template string, args ...interface{})     {}
+func (m *MockLogger) Panicf(template string, args ...interface{})      {}
+func (m *MockLogger) Fatalf(template string, args ...interface{})      {}
+func (m *MockLogger) Debugw(msg string, keysAndValues ...interface{})  {}
+func (m *MockLogger) Infow(msg string, keysAndValues ...interface{})   {}
+func (m *MockLogger) Warnw(msg string, keysAndValues ...interface{})   {}
+func (m *MockLogger) Errorw(msg string, keysAndValues ...interface{})  {}
+func (m *MockLogger) DPanicw(msg string, keysAndValues ...interface{}) {}
+func (m *MockLogger) Panicw(msg string, keysAndValues ...interface{})  {}
+func (m *MockLogger) Fatalw(msg string, keysAndValues ...interface{})  {}
 
 func TestUserService_CreateUser_Success(t *testing.T) {
 	// Arrange

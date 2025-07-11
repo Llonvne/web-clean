@@ -3,13 +3,13 @@ package http
 import (
 	"net/http"
 	"strconv"
-	
+
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	
+
+	"web-clean/domain"
 	"web-clean/internal/application/service"
 	"web-clean/internal/domain/usecase"
-	"web-clean/domain"
 )
 
 // UserHandler handles HTTP requests for user operations
@@ -147,7 +147,7 @@ func (h *UserHandler) UpdateUserProfile(c *gin.Context) {
 	var req struct {
 		Name string `json:"name" binding:"required,min=1,max=100"`
 	}
-	
+
 	if err := c.ShouldBindJSON(&req); err != nil {
 		h.logger.Warnw("Invalid request for update user", "error", err)
 		c.JSON(http.StatusBadRequest, ErrorResponse{

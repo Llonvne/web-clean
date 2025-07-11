@@ -11,19 +11,19 @@ import (
 type UserUseCase interface {
 	// CreateUser creates a new user with validation
 	CreateUser(ctx context.Context, req CreateUserRequest) (*entity.User, error)
-	
+
 	// GetUserByID retrieves a user by ID
 	GetUserByID(ctx context.Context, id uuid.UUID) (*entity.User, error)
-	
+
 	// GetUserByEmail retrieves a user by email
 	GetUserByEmail(ctx context.Context, email string) (*entity.User, error)
-	
+
 	// UpdateUserProfile updates user profile information
 	UpdateUserProfile(ctx context.Context, req UpdateUserProfileRequest) (*entity.User, error)
-	
+
 	// DeleteUser removes a user
 	DeleteUser(ctx context.Context, id uuid.UUID) error
-	
+
 	// ListUsers retrieves paginated list of users
 	ListUsers(ctx context.Context, req ListUsersRequest) (*ListUsersResponse, error)
 }
@@ -49,9 +49,9 @@ type ListUsersRequest struct {
 
 // ListUsersResponse represents the response for listing users
 type ListUsersResponse struct {
-	Users      []*entity.User `json:"users"`
-	Total      int64          `json:"total"`
-	Offset     int            `json:"offset"`
-	Limit      int            `json:"limit"`
-	HasMore    bool           `json:"has_more"`
+	Users   []*entity.User `json:"users"`
+	Total   int64          `json:"total"`
+	Offset  int            `json:"offset"`
+	Limit   int            `json:"limit"`
+	HasMore bool           `json:"has_more"`
 }

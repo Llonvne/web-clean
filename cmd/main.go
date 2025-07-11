@@ -12,11 +12,11 @@ import (
 	byjson "web-clean/infra/loader/json"
 	"web-clean/infra/web"
 	oldRepository "web-clean/repository"
-	
+
 	// Clean Architecture layers
 	"web-clean/internal/application/service"
-	userHttpHandler "web-clean/internal/interface/http"
 	"web-clean/internal/infrastructure/repository"
+	userHttpHandler "web-clean/internal/interface/http"
 )
 
 func main() {
@@ -39,13 +39,13 @@ func main() {
 	}
 
 	// Initialize Clean Architecture layers following dependency inversion principle
-	
+
 	// Infrastructure Layer - implements domain interfaces
 	userRepo := repository.NewUserRepository(db)
-	
+
 	// Application Layer - contains business logic
 	userService := service.NewUserService(userRepo, context.Log)
-	
+
 	// Interface Layer - handles HTTP concerns
 	userHandler := userHttpHandler.NewUserHandler(userService, context.Log)
 
@@ -80,7 +80,7 @@ func main() {
 		engine.Use(web.Recover(func(context *gin.Context, err any) {
 			// Handle panics gracefully
 			context.JSON(http.StatusInternalServerError, gin.H{
-				"error": "internal_server_error",
+				"error":   "internal_server_error",
 				"message": "An internal error occurred",
 			})
 		}))
@@ -90,7 +90,7 @@ func main() {
 		// Health check endpoint
 		engine.GET("/health", func(c *gin.Context) {
 			c.JSON(http.StatusOK, gin.H{
-				"status": "healthy",
+				"status":  "healthy",
 				"service": "web-clean",
 			})
 		})
@@ -115,11 +115,11 @@ func main() {
 				"message": "Clean Architecture API v1",
 				"endpoints": gin.H{
 					"users": gin.H{
-						"POST /api/v1/users":        "Create a new user",
-						"GET /api/v1/users":         "List users with pagination",
-						"GET /api/v1/users/:id":     "Get user by ID",
-						"PUT /api/v1/users/:id":     "Update user profile",
-						"DELETE /api/v1/users/:id":  "Delete user",
+						"POST /api/v1/users":       "Create a new user",
+						"GET /api/v1/users":        "List users with pagination",
+						"GET /api/v1/users/:id":    "Get user by ID",
+						"PUT /api/v1/users/:id":    "Update user profile",
+						"DELETE /api/v1/users/:id": "Delete user",
 					},
 					"health": "GET /health - Health check",
 				},
@@ -128,11 +128,11 @@ func main() {
 	})
 
 	// Start the server
-	context.Log.Infow("Starting Clean Architecture web server", 
+	context.Log.Infow("Starting Clean Architecture web server",
 		"architecture", "Clean Architecture",
 		"layers", []string{"Domain", "Application", "Infrastructure", "Interface"},
 		"patterns", []string{"Dependency Inversion", "Separation of Concerns", "Single Responsibility"},
 	)
-	
+
 	server.Serve()
 }
